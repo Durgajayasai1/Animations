@@ -113,7 +113,7 @@ class NewYearState extends State<NewYear> with TickerProviderStateMixin {
                     Text(
                       "202",
                       style: GoogleFonts.poppins(
-                        fontSize: 50,
+                        fontSize: 60,
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
@@ -126,7 +126,7 @@ class NewYearState extends State<NewYear> with TickerProviderStateMixin {
                             child: Text(
                               "4",
                               style: GoogleFonts.poppins(
-                                fontSize: 50,
+                                fontSize: 60,
                                 color: Colors.red,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -137,7 +137,7 @@ class NewYearState extends State<NewYear> with TickerProviderStateMixin {
                           child: Text(
                             "5",
                             style: GoogleFonts.poppins(
-                              fontSize: 50,
+                              fontSize: 60,
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),
