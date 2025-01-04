@@ -20,7 +20,7 @@ class AddToCartAnimationState extends State<AddToCartAnimation> {
           preferredSize: Size.fromHeight(40),
           child: AppBar(
             title: Text(
-              "Cart Animation",
+              "flutter_devote",
               style: GoogleFonts.poppins(
                   color: Colors.white, fontWeight: FontWeight.bold),
             ),
@@ -47,7 +47,7 @@ class AddToCartAnimationState extends State<AddToCartAnimation> {
                 if (isClicked)
                   Positioned.fill(
                     child: Lottie.asset('assets/lottie/confetti.json',
-                        fit: BoxFit.cover),
+                        repeat: false, fit: BoxFit.cover),
                   ),
                 Row(
                   mainAxisAlignment: isClicked
